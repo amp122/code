@@ -1,30 +1,3 @@
-
-package com.amr.testful;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.RecyclerView.Recycler;
-
-import android.content.Context;
-import android.os.Bundle;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.TextView;
-
-import com.bumptech.glide.Glide;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-
-/**
- * Created by Elena Ekuznetsowa on 11/1/2021.
- */
-
 public class data extends AppCompatActivity {
     private EditText eText;
     private ImageButton sBtn;
@@ -112,6 +85,4 @@ public class data extends AppCompatActivity {
 
              }
          }
-
-}`
-```
+}
